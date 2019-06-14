@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +28,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Main-Content {
+  width: 1117px;
+  margin: auto;
+  margin-top: 20px;
 }

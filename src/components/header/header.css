@@ -1,0 +1,32 @@
+.logo-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+.logo-div:hover {
+    cursor: pointer;
+}
+.logo {
+
+    width: 300px;
+
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 4px 6px -6px black;
+    -moz-box-shadow: 0 4px 6px -6px black;
+    box-shadow: 0 4px 6px -6px black;
+}
+
+.button-div {
+    margin-right: 10px;
+   margin-top: 20px;
+}
+

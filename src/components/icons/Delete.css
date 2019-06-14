@@ -1,0 +1,55 @@
+.icon {
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    border-radius: 0.5px;
+    transition: box-shadow 0.2s ease;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon:hover .lid,
+.icon:hover .lidcap {
+    transform: rotate(10deg);
+    margin-bottom: 1.5px;
+}
+
+.lidcap,
+.lid,
+.bin {
+    position: absolute;
+}
+
+.lidcap,
+.lid {
+    border-top-left-radius: 0.4px;
+    border-top-right-radius: 0.4px;
+    background: #cccccc;
+    transition: transform 0.2s linear, margin 0.2s linear;
+}
+
+.lidcap {
+    bottom: 13.8px;
+    left: 9px;
+    height: 1px;
+    width: 2px;
+}
+
+.lid {
+    bottom: 19px;
+    left: 3px;
+    width: 17px;
+    height: 2px;
+}
+
+.bin {
+    bottom: 0;
+    left: 4px;
+    border-radius: 0 0 4px 4px;
+    width: 13px;
+    border-top: 18px solid #cccccc;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
